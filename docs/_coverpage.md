@@ -1,4 +1,4 @@
-# cli-template
+# gosync
 
 > This cli template shows the date and time in the terminal
 
