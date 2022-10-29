@@ -1,24 +1,9 @@
 # gosync
 
 ## Usage
-> This cli template shows the date and time in the terminal
+> This tool will copy files really fast
 
 gosync
-
-## Description
-
-```
-This is a template CLI application, which can be used as a boilerplate for awesome CLI tools written in Go.
-This template prints the date or time to the terminal.
-```
-## Examples
-
-```bash
-cli-template date
-cli-template date --format 20060102
-cli-template time
-cli-template time --live
-```
 
 ## Flags
 |Flag|Usage|
@@ -31,9 +16,7 @@ cli-template time --live
 |Command|Usage|
 |-------|-----|
 |`gosync completion`|Generate the autocompletion script for the specified shell|
-|`gosync date`|Prints the current date.|
 |`gosync help`|Help about any command|
-|`gosync time`|Prints the current time|
 # ... completion
 `gosync completion`
 
@@ -190,18 +173,6 @@ You will need to start a new shell for this setup to take effect.
 |Flag|Usage|
 |----|-----|
 |`--no-descriptions`|disable completion descriptions|
-# ... date
-`gosync date`
-
-## Usage
-> Prints the current date.
-
-gosync date
-
-## Flags
-|Flag|Usage|
-|----|-----|
-|`-f, --format string`|specify a custom date format (default "02 Jan 06")|
 # ... help
 `gosync help`
 
@@ -216,25 +187,7 @@ gosync help [command]
 Help provides help for any command in the application.
 Simply type gosync help [path to command] for full details.
 ```
-# ... time
-`gosync time`
-
-## Usage
-> Prints the current time
-
-gosync time
-
-## Description
-
-```
-You can print a live clock with the '--live' flag!
-```
-
-## Flags
-|Flag|Usage|
-|----|-----|
-|`-l, --live`|live output|
 
 
 ---
-> **Documentation automatically generated with [PTerm](https://github.com/pterm/cli-template) on 27 October 2022**
+> **Documentation automatically generated with [PTerm](https://github.com/pterm/cli-template) on 29 October 2022**
