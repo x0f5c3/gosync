@@ -11,12 +11,33 @@ gosync
 |`--debug`|enable debug messages|
 |`--disable-update-checks`|disables update checks|
 |`--raw`|print unstyled raw output (set it if output is written to a file)|
+|`-v, --verbose`|verbose output|
+|`-V, --version`|print version|
 
 ## Commands
 |Command|Usage|
 |-------|-----|
+|`gosync check`|A brief description of your command|
 |`gosync completion`|Generate the autocompletion script for the specified shell|
 |`gosync help`|Help about any command|
+# ... check
+`gosync check`
+
+## Usage
+> A brief description of your command
+
+gosync check
+
+## Description
+
+```
+A longer description that spans multiple lines and likely contains examples
+and usage of using your command. For example:
+
+Cobra is a CLI library for Go that empowers applications.
+This application is a tool to generate the needed files
+to quickly create a Cobra application.
+```
 # ... completion
 `gosync completion`
 
@@ -190,4 +211,4 @@ Simply type gosync help [path to command] for full details.
 
 
 ---
-> **Documentation automatically generated with [PTerm](https://github.com/pterm/cli-template) on 29 October 2022**
+> **Documentation automatically generated with [PTerm](https://github.com/pterm/cli-template) on 31 October 2022**
