@@ -21,6 +21,9 @@ var rootCmd = &cobra.Command{
 	// },
 }
 
+var verbose bool
+var version bool
+
 // Execute adds all child commands to the root command and sets flags appropriately.
 // This is called by main.main(). It only needs to happen once to the rootCmd.
 func Execute() {
@@ -56,6 +59,8 @@ func init() {
 	rootCmd.PersistentFlags().BoolVarP(&pterm.PrintDebugMessages, "debug", "", false, "enable debug messages")
 	rootCmd.PersistentFlags().BoolVarP(&pterm.RawOutput, "raw", "", false, "print unstyled raw output (set it if output is written to a file)")
 	rootCmd.PersistentFlags().BoolVarP(&pcli.DisableUpdateChecking, "disable-update-checks", "", false, "disables update checks")
+	rootCmd.PersistentFlags().BoolVarP(&verbose, "verbose", "v", false, "verbose output")
+	rootCmd.PersistentFlags().BoolVarP(&version, "version", "V", false, "print version")
 
 	// Use https://github.com/pterm/pcli to style the output of cobra.
 	exitOnErr(pcli.SetRepo("x0f5c3/gosync"))
