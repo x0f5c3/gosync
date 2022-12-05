@@ -3,7 +3,7 @@ module github.com/x0f5c3/gosync
 go 1.18
 
 require (
-	github.com/cespare/xxhash/v2 v2.1.2
+	github.com/cespare/xxhash/v2 v2.2.0
 	github.com/kalafut/imohash v1.0.2
 	github.com/pterm/pcli v0.4.6
 	github.com/pterm/pterm v0.12.49
