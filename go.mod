@@ -8,7 +8,7 @@ require (
 	github.com/pterm/pcli v0.4.6
 	github.com/pterm/pterm v0.12.49
 	github.com/spf13/cobra v1.6.1
-	golang.org/x/crypto v0.3.0
+	golang.org/x/crypto v0.4.0
 )
 
 require (
@@ -26,7 +26,7 @@ require (
 	github.com/tidwall/pretty v1.2.0 // indirect
 	github.com/twmb/murmur3 v1.1.6 // indirect
 	github.com/xo/terminfo v0.0.0-20210125001918-ca9a967f8778 // indirect
-	golang.org/x/sys v0.2.0 // indirect
-	golang.org/x/term v0.2.0 // indirect
-	golang.org/x/text v0.4.0 // indirect
+	golang.org/x/sys v0.3.0 // indirect
+	golang.org/x/term v0.3.0 // indirect
+	golang.org/x/text v0.5.0 // indirect
 )
