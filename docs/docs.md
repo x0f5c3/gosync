@@ -211,4 +211,4 @@ Simply type gosync help [path to command] for full details.
 
 
 ---
-> **Documentation automatically generated with [PTerm](https://github.com/pterm/cli-template) on 19 November 2022**
+> **Documentation automatically generated with [PTerm](https://github.com/pterm/cli-template) on 05 April 2023**
